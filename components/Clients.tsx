@@ -5,7 +5,7 @@ import React from "react";
 import { testimonials, companies } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
 
-const Clients = () => {
+export const  Clients = () => {
   return (
     <section id="testimonials" className="py-20">
       <h1 className="heading">
@@ -48,5 +48,3 @@ const Clients = () => {
     </section>
   );
 };
-
-export default Clients;
